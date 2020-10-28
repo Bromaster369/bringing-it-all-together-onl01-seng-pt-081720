@@ -83,7 +83,7 @@ class Dog
   end
   
   def self.find_or_create_by(name:, breed:)
-    sql 
+    dog = DB[:conn].execute()
     
   end 
   
